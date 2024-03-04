@@ -16,6 +16,7 @@ CORS(app)
 
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+STRIPE_NEW="sk_live_devboxbcct1DfwS2ClCIKllL"
 
 def get_access_token(code):
     app.logger.debug('Requesting access token')
